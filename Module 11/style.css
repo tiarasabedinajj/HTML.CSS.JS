@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    margin: 300px;
+    padding: 150px;
+    border: 10px dotted hotpink ;
+    background-color:plum;
+
+
+}
+
+body {
+    background: url(../Website/zara.jpeg);
+}
