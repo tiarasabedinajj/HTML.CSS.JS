@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none ;
+    padding: 15px 25px;
+    background-color: aqua;
+    font-size: 50px;
+    color: blueviolet;
+}
+ ul li {
+    padding: 2px;
+    border: 5px dotted rgb(206, 99, 206);
+ }
+
+
+ ol {
+    list-style-type: lower-roman;
+    background-color: deeppink;
+ }
+  
+ ol li{
+    list-style-type: lower-roman;
+    padding: 10px;
+    background-color: forestgreen;
+ }
+ td, th{
+    border: 1px solid black;
+    padding: 5px;
+ }
