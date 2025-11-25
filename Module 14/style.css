@@ -1,0 +1,39 @@
+article p{
+background-color: pink;
+    color: black;
+    padding: 20px;
+}
+
+
+
+div p {
+    background-color: aqua;
+    color: black;
+}
+
+article > p {
+    
+}
+
+article ~ p{
+    background-color: blueviolet;
+    color: beige;
+    padding: 20px;
+}
+
+article + p{
+    background-color: forestgreen;
+}
+
+input:in-range {
+    border: 2px solid green;
+}
+input:out-of-range{
+    border:2px solid red ;
+}
+ main p:first-child{
+    background-color: brown;
+ }
+ a:hover{
+    background-color: navy;
+ }
