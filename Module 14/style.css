@@ -26,14 +26,39 @@ article + p{
 }
 
 input:in-range {
-    border: 2px solid green;
+    border: 2px solid rgb(2, 0, 128);
 }
 input:out-of-range{
     border:2px solid red ;
 }
  main p:first-child{
-    background-color: brown;
+    background-color: rgb(250, 186, 241);
  }
- a:hover{
-    background-color: navy;
+
+
+
+ nav a{
+   padding: 20px;
+   margin: 20px;
+ }
+
+ nav{
+    background-color:rgb(127, 184, 181);
+    padding: 10px;
+ }
+
+ #link:hover{
+    background-color: blue;
+ }
+
+ nav a:hover{
+    background-color: rgb(73, 73, 129);
+ }
+
+ nav a:active{
+    background-color: azure;
+ }
+
+ nav a:visited{
+    color: gold;
  }
