@@ -1,0 +1,19 @@
+.gallery{
+margin: 10px;
+border: 1px solid pink;
+float: left;
+width: 400px;
+}
+.gallery:hover{
+border: 2px solid rgb(194, 77, 96);
+}
+
+.gallery img{
+    width: 100%;
+    height:500px;
+}
+
+.description{
+    padding: 15px;
+    text-align:center;
+}
