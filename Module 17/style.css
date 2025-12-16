@@ -1,0 +1,35 @@
+.dropdown-content { 
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    height: 50px;
+    width: 100px;
+    display:block;
+    box-shadow:pink ;
+    background-color: blue;
+}
+
+.tooltip{
+    padding: 19px;
+    display: inline-block;
+    border: dotted pink;
+
+}
+
+.tooltip-text{
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+    width: 100px;
+    background:black ;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 140px;
+    left: 6%;
+    margin-left: -60px;
+} 
