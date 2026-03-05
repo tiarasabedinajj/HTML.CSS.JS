@@ -1,0 +1,45 @@
+
+@media (min-width: 600px) {
+    body {
+        background-color: lightblue;
+        color: darkblue;
+    }
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightpink;
+        color: darkred;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-color: lightgreen;
+        color: darkgreen;
+    }
+}
+@media (orientation: landscape) {
+    body {
+        background-color: lightyellow;
+        color: darkorange;
+    }
+}
+
+h1 {
+    padding: 20px;
+    border : 2px solid black;
+}
+
+
+
+    @media (min-width:600px), (max-width:900px) img {
+    
+    display: none;
+    }
+    
+    @media (min-width:600px) {
+    p {
+        column-count: 2;
+    }
