@@ -1,0 +1,3 @@
+$('#myDiv').click(function(){
+    $(this)
+})
